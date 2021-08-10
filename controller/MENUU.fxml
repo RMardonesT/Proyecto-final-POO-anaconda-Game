@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="495.0" maxWidth="600.0" minHeight="495.0" minWidth="600.0" prefHeight="495.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuControl">
+   <children>
+      <VBox layoutX="75.0" layoutY="9.0" prefHeight="374.0" prefWidth="450.0" translateY="50.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true" translateX="150.0">
+               <image>
+                  <Image url="@../src/img/logo2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="72.0" fitWidth="454.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../src/img/titulo.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="113.0" prefWidth="450.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" translateX="30.0" translateY="50.0">
+                     <image>
+                        <Image url="@../src/img/playerName.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="NameField" onKeyTyped="#getName" prefHeight="33.0" prefWidth="150.0" translateX="50.0" translateY="50.0" />
+               </children>
+            </HBox>
+            <ImageView fitHeight="72.0" fitWidth="479.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../src/img/start.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</Pane>

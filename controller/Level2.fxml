@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="450.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="50.0">
+               <image>
+                  <Image url="@../src/img/level2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" translateX="160.0" translateY="100.0">
+               <image>
+                  <Image url="@../src/img/lvl2_text.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <ImageView fitHeight="133.0" fitWidth="242.0" layoutY="-14.0" pickOnBounds="true" translateX="60.0" translateY="275.0">
+         <image>
+            <Image url="@../src/img/Ins_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true" translateX="350.0" translateY="275.0">
+         <image>
+            <Image url="@../src/img/Cont_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="114.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true" translateX="50.0" translateY="30.0">
+         <image>
+            <Image url="@../src/img/logo2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true" translateX="470.0" translateY="60.0">
+         <image>
+            <Image url="@../src/img/food.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="293.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true" translateX="150.0" translateY="420.0">
+         <image>
+            <Image url="@../src/img/pressSpace.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
